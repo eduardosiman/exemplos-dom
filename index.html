@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos DOM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="example">
+            <h2>Exemplo Funcional</h2>
+            <!-- Exemplo de document -->
+            <p id="document-example">Este é um exemplo do uso de <code>document</code>.</p>
+            <button onclick="changeDocumentContent()">Clique para mudar conteúdo</button>
+
+            <!-- Exemplo de getElementById -->
+            <div id="element-by-id-example">Texto original</div>
+            <button onclick="changeElementById()">Mudar texto por ID</button>
+
+            <!-- Exemplo de getElementsByClassName -->
+            <div class="class-example">Classe 1</div>
+            <div class="class-example">Classe 2</div>
+            <button onclick="changeElementsByClass()">Mudar texto por classe</button>
+
+            <!-- Exemplo de getElementsByTagName -->
+            <p>Parágrafo 1</p>
+            <p>Parágrafo 2</p>
+            <button onclick="changeElementsByTag()">Mudar texto por tag</button>
+
+            <!-- Exemplo de createElement -->
+            <div id="create-element-example"></div>
+            <button onclick="addElement()">Adicionar Elemento</button>
+
+            <!-- Exemplo de innerHTML -->
+            <div id="inner-html-example">Conteúdo original</div>
+            <button onclick="changeInnerHTML()">Mudar innerHTML</button>
+        </div>
+        <div class="code">
+            <h2>Código do Exemplo</h2>
+            <pre>
+                <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Exemplos DOM&lt;/title&gt;
+    &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="example"&gt;
+            &lt;h2&gt;Exemplo Funcional&lt;/h2&gt;
+            &lt;!-- Exemplo de document --&gt;
+            &lt;p id="document-example"&gt;Este é um exemplo do uso de &lt;code&gt;document&lt;/code&gt;.&lt;/p&gt;
+            &lt;button onclick="changeDocumentContent()"&gt;Clique para mudar conteúdo&lt;/button&gt;
+
+            &lt;!-- Exemplo de getElementById --&gt;
+            &lt;div id="element-by-id-example"&gt;Texto original&lt;/div&gt;
+            &lt;button onclick="changeElementById()"&gt;Mudar texto por ID&lt;/button&gt;
+
+            &lt;!-- Exemplo de getElementsByClassName --&gt;
+            &lt;div class="class-example"&gt;Classe 1&lt;/div&gt;
+            &lt;div class="class-example"&gt;Classe 2&lt;/div&gt;
+            &lt;button onclick="changeElementsByClass()"&gt;Mudar texto por classe&lt;/button&gt;
+
+            &lt;!-- Exemplo de getElementsByTagName --&gt;
+            &lt;p&gt;Parágrafo 1&lt;/p&gt;
+            &lt;p&gt;Parágrafo 2&lt;/p&gt;
+            &lt;button onclick="changeElementsByTag()"&gt;Mudar texto por tag&lt;/button&gt;
+
+            &lt;!-- Exemplo de createElement --&gt;
+            &lt;div id="create-element-example"&gt;&lt;/div&gt;
+            &lt;button onclick="addElement()"&gt;Adicionar Elemento&lt;/button&gt;
+
+            &lt;!-- Exemplo de innerHTML --&gt;
+            &lt;div id="inner-html-example"&gt;Conteúdo original&lt;/div&gt;
+            &lt;button onclick="changeInnerHTML()"&gt;Mudar innerHTML&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;script src="script.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                </code>
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
+            </code>
+            </pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
